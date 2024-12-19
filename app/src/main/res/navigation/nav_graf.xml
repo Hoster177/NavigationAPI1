@@ -23,4 +23,13 @@
             android:id="@+id/action_blankFragment_to_root_fragment"
             app:destination="@id/root_fragment" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.hoster.navigationapi.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="ru.hoster.navigationapi.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
 </navigation>
